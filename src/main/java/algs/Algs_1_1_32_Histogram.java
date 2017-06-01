@@ -3,7 +3,7 @@ package algs;
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdIn;
 
-public class Main
+public class Algs_1_1_32_Histogram
 {
     public static void main(String[] args)
     {

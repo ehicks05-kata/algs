@@ -13,7 +13,7 @@ package algs;
 
 import edu.princeton.cs.algs4.StdRandom;
 
-public class EmpiricalShuffleCheck
+public class Algs_1_1_36_EmpiricalShuffleCheck
 {
     public static void main(String[] args)
     {

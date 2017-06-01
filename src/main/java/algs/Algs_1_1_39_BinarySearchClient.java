@@ -14,7 +14,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Arrays;
 
-public class BinarySearchClient
+public class Algs_1_1_39_BinarySearchClient
 {
     public static void main(String[] args)
     {

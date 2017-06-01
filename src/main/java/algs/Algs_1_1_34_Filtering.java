@@ -17,7 +17,7 @@ comes from standard input and consists of N real numbers between 0 and 1.
 
 import edu.princeton.cs.algs4.StdRandom;
 
-public class Filtering
+public class Algs_1_1_34_Filtering
 {
     public static void main(String[] args)
     {

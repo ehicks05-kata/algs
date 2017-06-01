@@ -5,7 +5,7 @@ package algs;
 
     Write a program  BruteForceSearch
     that uses the brute-force search method given on page 48 and compare its running time
-    on your computer with that of  BinarySearchClient for  largeW.txt and  largeT.txt
+    on your computer with that of  Algs_1_1_39_BinarySearchClient for  largeW.txt and  largeT.txt
 */
 
 import edu.princeton.cs.algs4.In;
@@ -13,7 +13,7 @@ import edu.princeton.cs.algs4.In;
 import java.io.File;
 import java.util.Arrays;
 
-public class BruteForceSearch
+public class Algs_1_1_38_BruteForceSearch
 {
     public static void main(String[] args)
     {

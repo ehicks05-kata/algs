@@ -16,7 +16,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Point2DClient
+public class Algs_1_2_1_Point2DClient
 {
     public static void main(String[] args)
     {

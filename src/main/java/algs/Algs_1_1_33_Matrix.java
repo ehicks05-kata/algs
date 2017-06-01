@@ -1,6 +1,6 @@
 package algs;
 
-public class Matrix
+public class Algs_1_1_33_Matrix
 {
     public static void main(String[] args)
     {
