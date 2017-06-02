@@ -1,0 +1,6 @@
+mystery(2, 25) = 50
+mystery(3, 11) = 33
+mystery returns a * b
+new mystery(2, 25) = 33554432
+new mystery(3, 11) = 177147
+new mystery returns a^b

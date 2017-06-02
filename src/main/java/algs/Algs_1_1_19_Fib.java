@@ -2,7 +2,32 @@ package algs;
 
 import java.time.LocalDateTime;
 
-public class Fib
+/*
+    1.1.19 Run the following program on your computer:
+
+    public class Fibonacci
+    {
+        public static long F(int N)
+        {
+            if (N == 0) return 0;
+            if (N == 1) return 1;
+            return F(N-1) + F(N-2);
+        }
+        public static void main(String[] args)
+        {
+            for (int N = 0; N < 100; N++)
+            StdOut.println(N + " " + F(N));
+        }
+    }
+
+    What is the largest value of  N for which this program takes less 1 hour to compute the
+    value of  F(N) ? Develop a better implementation of  F(N) that saves computed values in
+    an array
+
+    Answer: 59 is the last number that takes less than an hour (i5 3570k @ 4GHz)
+*/
+
+public class Algs_1_1_19_Fib
 {
     public static void main(String[] args)
     {

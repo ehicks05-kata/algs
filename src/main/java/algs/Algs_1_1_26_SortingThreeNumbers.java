@@ -11,7 +11,7 @@ package algs;
     if (b > c) { t = b; b = c; c = t; }
 * */
 
-public class Algo_1_1_26_SortingThreeNumbers
+public class Algs_1_1_26_SortingThreeNumbers
 {
     /*
     *

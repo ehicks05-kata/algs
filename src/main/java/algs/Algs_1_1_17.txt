@@ -1,0 +1,1 @@
+check for base case should be first statement

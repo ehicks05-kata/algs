@@ -1,0 +1,4 @@
+a. invalid 'then' keyword
+b. missing parens after 'if'
+c. ok
+d. missing semicolon before 'else'

@@ -16,7 +16,7 @@ package algs;
 
 import edu.princeton.cs.algs4.StdOut;
 
-public class Algo_1_1_27_BinomialDistribution
+public class Algs_1_1_27_BinomialDistribution
 {
     // slow
     public static double binomial1(int N, int k, double p) {
