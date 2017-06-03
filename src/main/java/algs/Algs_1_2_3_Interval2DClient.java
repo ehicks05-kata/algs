@@ -48,10 +48,16 @@ public class Algs_1_2_3_Interval2DClient
         for (int i = 0; i < n; i++)
             for (int j = i+1; j < n; j++)
             {
-                if (intervals[i].intersects(intervals[j]))
-                    System.out.println(intervals[i] + " " + intervals[j]);
-//                if (intervals[i].intersects(intervals[j]))
-//                    System.out.println(intervals[i] + " " + intervals[j]);
+                Interval2D i1 = intervals[i];
+                Interval2D i2 = intervals[j];
+                if (i1.intersects(i2))
+                    System.out.println(i1 + " " + i2);
+                String[] horVerPair = i1.toString()
+                        .replaceAll("\\[","")
+                        .replaceAll("]","")
+                        .split(" x ");
+                String[] i1HorCoordPair = horVerPair[0].split(", ");
+                String[] i1VerCoordPair = horVerPair[0].split(", ");
 
             }
     }
