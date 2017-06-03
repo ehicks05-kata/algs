@@ -51,6 +51,8 @@ public class Algs_1_2_3_Interval2DClient
                 if (i1.intersects(i2))
                     System.out.println(i1 + " " + i + " intersects " + j + " " + i2);
 
+                // resorting to toString parsing since Interval2D doesn't provide
+                // access to its own coordinates
                 String[] i1horVerPair = i1.toString()
                         .replaceAll("\\[","")
                         .replaceAll("]","")

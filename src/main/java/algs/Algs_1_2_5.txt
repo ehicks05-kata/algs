@@ -1,0 +1,7 @@
+1.2.5  What does the following code fragment print?
+String s = "Hello World";
+s.toUpperCase();
+s.substring(6, 11);
+StdOut.println(s);
+
+Hello World
