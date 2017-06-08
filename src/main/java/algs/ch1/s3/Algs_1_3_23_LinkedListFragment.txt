@@ -1,0 +1,10 @@
+/*
+    1.3.23  Why does the following code fragment not do the same thing as in the previous
+    question?
+    x.next = t;
+    t.next = x.next;
+
+    t has been set to follow x.
+    then t.next is set to be x.next, which is t.
+    so t is pointing to itself.
+* */
