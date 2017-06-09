@@ -45,6 +45,48 @@ public class Algs_1_3_30_ReverseList
 {
     public static void main(String[] args) throws Exception
     {
+        Node first = new Node(1);
+        Node second = new Node(2);
+        Node third = new Node(8);
+        Node fourth = new Node(4);
+        Node fifth = new Node(3);
 
+        first.next = second;
+        second.next = third;
+        third.next = fourth;
+        fourth.next = fifth;
+
+        System.out.println(reverse(first));
+    }
+
+    public static Node reverse(Node node)
+    {
+        Node newFirst = null;
+
+        return newFirst;
+    }
+
+    public static class Node
+    {
+        Integer data;
+        Node next;
+
+        public Node(Integer data)
+        {
+            this.data = data;
+        }
+
+        @Override
+        public String toString()
+        {
+            String list = "";
+            Node node = this;
+            while (node != null)
+            {
+                list += node.data + " ";
+                node = node.next;
+            }
+            return list;
+        }
     }
 }
