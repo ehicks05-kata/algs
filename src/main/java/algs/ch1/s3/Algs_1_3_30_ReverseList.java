@@ -39,6 +39,8 @@ package algs.ch1.s3;
         first.next = null;
         return rest;
     }
+
+    Note: Did not figure this out independently - used the given solution.
 * */
 
 public class Algs_1_3_30_ReverseList
@@ -56,14 +58,30 @@ public class Algs_1_3_30_ReverseList
         third.next = fourth;
         fourth.next = fifth;
 
+        System.out.println(first);
         System.out.println(reverse(first));
     }
 
-    public static Node reverse(Node node)
+    /*
+    *   Iterative solution : To accomplish this task, we maintain references to three consecutive
+        nodes in the linked list,  reverse ,  first , and  second . At each iteration, we extract the
+        node  first from the original linked list and insert it at the beginning of the reversed
+        list. We maintain the invariant that  first is the first node of what’s left of the original
+        list,  second is the second node of what’s left of the original list, and  reverse is the first
+        node of the resulting reversed list.
+    * */
+    public static Node reverse(Node x)
     {
-        Node newFirst = null;
-
-        return newFirst;
+        Node first = x; // first node of original
+        Node reverse = null; // first node of new list
+        while (first != null)
+        {
+            Node second = first.next; // second node of original
+            first.next = reverse;
+            reverse = first;
+            first = second;
+        }
+        return reverse;
     }
 
     public static class Node
