@@ -20,7 +20,7 @@ public class Algs_1_1_30_ArrayExercise
                 a[i][j] = gcd(i, j) == 1;
             }
 
-        Algo.print2DArray(a);
+        Common.print2DArray(a);
     }
 
     public static int gcd(int p, int q)
